@@ -1,0 +1,22 @@
+ECE471 Fall 2022 -- HW6
+
+Name: Dyllon Dunton
+
+
+2. d.i. (min=5499ns),(max=43851ns),(average=12482ns)
+   d.ii. I would pick 50000ns. If the maximum time it takes in just this trial was 43851ns, I need to account for the fact that it may be larger next time
+
+3. c.i.(min=5129ns),(max=36325609ns),(average=7117203ns)
+   c.ii. The min did not change, bu the rest changed immensely. I would up my polling period to 10ms in this case 
+
+4.b.i. (min=4982ns),(max=8389ns),(average=6635ns)
+  b.ii. All three values for latency dropped significantly. 
+
+5.b.i. (min=4749ns),(max=3746230ns),(average=82683ns) |  (min=3333ns),(max=9389ns),(average=4834ns)
+  b.ii. It would bog down programs that potentially need low latency
+
+
+7.a. Hard, because the driver could crash if this does not work properly
+  b. Soft, because there aren't any real consequences to this not working properly
+  c. firm, because the quality of the video playback would decrease with failure
+
